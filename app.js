@@ -30,7 +30,7 @@ function loadContent(section){ // Beginning of loadContent
    });
   } //End of loadContent
 function loadingDiv(){
-  $('.main').append('<div class="loading"><img src="loading_spinner.gif" alt=""> </div>');
+  $('.main').append('<div class="small-6 small-centered large-6 large-centered columns loading"><img src="loading_spinner.gif" alt=""> </div>');
 }
 $(document).on('ready',function(){ //Doc Ready
   $('.carousel').carousel();

@@ -73,6 +73,9 @@ img.profile{
 }
 .loading{
   background-color: white;
+  height: 50px;
+  width: 50px;
+  text-align: center;
 }
 .carousel-indicators {
   bottom:-10px;
